@@ -17,4 +17,3 @@ Changes: Back to using my reliable server.
 Todos: 
 
 1. Ability to search installed apps.
-2. Enable my own server because the backup is butts. (might do this soonish)
