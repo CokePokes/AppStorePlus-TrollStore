@@ -10,7 +10,12 @@ How to install:
 
 Enjoy. 
 
-Changes: Back to using my reliable server.
+Changes: 
+
+-- iPad support hopefully
+-- iOS13 support
+-- Back to using my reliable server.
+
 
 
 
