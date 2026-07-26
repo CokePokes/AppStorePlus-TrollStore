@@ -16,7 +16,7 @@ v2.0.1-2
 -- Total app overhaul
 -- Ability to search apps on the appstore. Did't really test it, so might run into some bugs. 
 
-# Known Bug: You will come across an annoying ass popup asking to download the latest version for some apps. Keep pressing download until it stops. This is just how it's going to work for now. 
+# Known Bug: You will come across an annoying ass popup asking to download the latest compatibla version for some apps. Keep pressing download until it stops. This is just how it's going to work for now. 
 
 v1.0.3-1
 -- Ability to download AppStore++ updates & open in TrollStore
