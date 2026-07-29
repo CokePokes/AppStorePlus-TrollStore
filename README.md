@@ -5,7 +5,7 @@ Allows you to downgrade installed apps.
 
 How to install: 
 1. Install TrollStore on your device: https://github.com/opa334/TrollStore
-2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.0.1-2/AppStorePlus-v2.0.1-2.tipa) from your mobile safari.
+2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.1.1-1/AppStorePlus-v2.1.1-1.tipa) from your mobile safari.
 3. Open Files app and "Open in" Trollstore. & Done.
 
 Enjoy. 
