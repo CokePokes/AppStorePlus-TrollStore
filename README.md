@@ -14,8 +14,11 @@ Changes:
 
 v2.1.1-1
 -- Ability to buy apps you do not own (for instance if you cannot buy because the app was updated to an incompatible version before trying to purchase)
+
 -- Page indicator to show app has more than one page
+
 -- Ability to sign into your Apple account to parse versions faster and without the spam Download Compatible version prompts.
+
 
 v2.0.1-2
 -- No longer relies on my server.
@@ -35,4 +38,4 @@ v1.0.2-1
 
 Todos: 
 
-1. Ability to search installed apps.
+1. one day not require sign in. 
