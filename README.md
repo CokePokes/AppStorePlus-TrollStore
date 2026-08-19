@@ -12,6 +12,12 @@ Enjoy.
 
 Changes: 
 
+# AppStore++ 2.2.8-2 Changelog
+
+- Fixed some of the OPEN buttons not working correctly
+- Version fix
+
+
 # AppStore++ 2.2.8-1 Changelog
 
 This is one of the largest AppStore++ updates yet, bringing major improvements to version management, account integration, downloads, backups, and the overall interface.
