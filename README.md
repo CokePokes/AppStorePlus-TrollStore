@@ -12,6 +12,79 @@ Enjoy.
 
 Changes: 
 
+# What’s New in 2.2.14-1
+
+## On-device Apple Account support
+
+- AppStore++ can now use the Apple Account already signed into the device for silent version lookups and account-authorized IPA downloads.
+- Most account-based features no longer require a separate Apple Account login inside AppStore++.
+- The separate AppStore++ login is now marked as deprecated.
+- Added a setting to disable use of the saved AppStore++ login without deleting the saved session.
+- Settings now displays the current on-device Apple Account as read-only information.
+- Existing saved AppStore++ sessions remain available for fallback use.
+
+## Version lookup and download queue
+
+- Integrated silent device-account version enumeration into normal version lookups.
+- Added pause and resume support for queued version lookups.
+- Version results are now cached as each version resolves, allowing interrupted jobs to continue without starting over.
+- Improved Round Robin processing so multiple queued apps perform real work on each turn.
+- Removed the unnecessary delay between Round Robin turns.
+- Moved the Round Robin preference into its own Downloads section in Settings.
+- Fixed cancelling one queued app incorrectly cancelling the next app.
+- Fixed queued apps appearing to alternate without downloading any version metadata.
+- Fixed queue progress being assigned to the wrong app.
+- Fixed cancelled lookups failing to display successfully resolved partial results.
+- Fixed progress indicators not updating during device-account lookups.
+- Stops lookup at unsupported legacy architecture boundaries instead of continuing through unusable builds.
+
+## IPA downloads and library
+
+- Added silent, account-authorized IPA downloading through the on-device Apple Account.
+- Connected device-account IPA downloads to the existing download manager.
+- Redesigned the IPA Library to group multiple downloaded versions under a single app entry.
+- Added a dedicated per-app screen showing every saved IPA version.
+- Added search to the IPA Library.
+- Improved IPA name, version, build, and icon recovery by reading metadata directly from the archive.
+- Fixed icons from unrelated apps being assigned to downloaded IPAs.
+- Added an IPA installation-method preference with **MobileInstallation** and **TrollStore** options.
+- TrollStore installs now hand the selected local IPA directly to TrollStore for import.
+- AppStore++ verifies that TrollStore is actually registered to handle the file before opening it.
+- Added clear fallback instructions when TrollStore is installed but is not registered to receive IPA files.
+- Added separate **Restore Backup** and **Install + Restore Backup** actions.
+
+## AppStore++ updates and TrollStore
+
+- Improved AppStore++ update installation through TrollStore.
+- Downloaded `.tipa` update files are passed directly to TrollStore instead of relying only on the optional URL-scheme setting.
+- AppStore++ now detects whether `apple-magnifier://` belongs to TrollStore or Apple’s Magnifier app.
+- Prevents update attempts from accidentally opening Magnifier when TrollStore’s URL scheme is disabled.
+- Added clearer errors when TrollStore is missing, cannot accept the update file, or needs to be opened once to register its file handlers.
+
+## Installed apps and backups
+
+- Added **Clear All App Data** to the installed-app action menu, including accessible Keychain data, with destructive confirmation.
+- Added a first-run tutorial explaining that users can hold an installed app to reveal download and management options.
+- Improved the tutorial layout for different screen sizes and dark mode.
+
+## Settings and support
+
+- Added a dedicated Downloads section for queue preferences.
+- Added a Cash App donation button under Support.
+- Support email now requires a user-entered problem description, preventing empty emails containing only logs or an automatic signature.
+- Settings now displays the complete AppStore++ marketing version and build number in its footer.
+
+## Fixes and refinements
+
+- Improved queue state isolation when multiple apps are downloading versions.
+- Improved partial-result persistence and cache recovery after cancellation.
+- Fixed several IPA artwork and metadata mismatches.
+- Improved long-press guidance and action-sheet usability.
+
+---
+
+Thank you to everyone who submitted logs, tested builds, and reported issues.
+
 # AppStore++ 2.2.8-2 Changelog
 
 - Fixed some of the OPEN buttons not working correctly
