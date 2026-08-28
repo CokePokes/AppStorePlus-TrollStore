@@ -5,12 +5,29 @@ Allows you to downgrade installed apps.
 
 How to install: 
 1. Install TrollStore on your device: https://github.com/opa334/TrollStore
-2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.0-1/AppStorePlus-v2.3.0-1.tipa) from your mobile safari.
+2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.1-1/AppStorePlus-v2.3.1-1.tipa) from your mobile safari.
 3. Open Files app and "Open in" Trollstore. & Done.
 
 Enjoy. 
 
 Changes: 
+
+# AppStore++ — What’s New in v2.3.1-1
+
+## IPA installation
+
+- Added pie progress for installation.
+- Fixed an issue restoring keychain data for backed up apps. (May need to redo your backups for compatibility.)
+
+## Compatibility and reliability
+
+- App is now killed after 5 minutes of inactivity.
+- Installed app list is now refreshed after installing an ipa.
+- AppStore++ version update fixes.
+
+---
+
+Thanks!
 
 # AppStore++ — What’s New in v2.3.0-1
 
