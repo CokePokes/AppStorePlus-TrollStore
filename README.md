@@ -16,7 +16,7 @@ Changes:
 
 ## IPA installation
 
-- Added pie progress for installation.
+- Added pie progress for ipa installation.
 - Fixed an issue restoring keychain data for backed up apps. (May need to redo your backups for compatibility.)
 
 ## Compatibility and reliability
