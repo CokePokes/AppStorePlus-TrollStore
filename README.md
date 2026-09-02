@@ -5,12 +5,77 @@ Allows you to downgrade installed apps.
 
 How to install: 
 1. Install TrollStore on your device: https://github.com/opa334/TrollStore
-2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.1-1/AppStorePlus-v2.3.1-1.tipa) from your mobile safari.
+2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.6-1/AppStorePlus-v2.3.6-1.tipa) from your mobile safari.
 3. Open Files app and "Open in" Trollstore. & Done.
 
 Enjoy. 
 
 Changes: 
+
+# AppStore++ — What’s New in v2.3.6-1
+
+## Version browsing and downloads
+
+- Added release-note information buttons beside available app versions.
+- Added a clean release-notes viewer with version and release-date information.
+- Expanded release-note coverage across older App Store and iTunes Store histories, including versions no longer shown in Apple’s current version history.
+- Added automatic recovery of missing version dates without requiring users to clear and download their entire version cache again.
+- Added favorite versions, displayed in a dedicated section above the complete version list.
+- Redesigned version and IPA download progress with an App Store-style card, app icon, pie progress, cancellation, and background controls.
+- Added an animated transition from the progress card into the download pill.
+- When downloads are already visible, newly queued app icons now fly into the expanded pill or collapsed download indicator.
+- IPA downloads now show their own progress card, including when other downloads are already running.
+- The download pill is now created only when needed and is fully removed after the queue finishes.
+- Improved multi-app and round-robin downloading so queued apps continue making progress without restarting or losing completed work.
+- Fixed cancellation, pause/resume, progress totals, cache persistence, and progress being displayed for the wrong queued app.
+- Fixed completed and fully cached version lookups incorrectly creating an empty download pill.
+
+## Apple Account improvements
+
+- Reworked optional AppStore++ Apple Account sign-in for newer versions of iOS.
+- Signed-in AppStore++ accounts can now load available versions using the faster account-based path.
+- AppStore++ automatically falls back to the device’s App Store account when a separate AppStore++ account is unavailable or disabled.
+- Improved account status presentation in Settings and made the device account clearly read-only.
+- Removed obsolete sign-in warnings and diagnostic options while retaining useful error reporting.
+
+## Installed apps and backups
+
+- Added favorites for installed apps, available from the app management menu and displayed in a dedicated Favorites section.
+- Added notes for saved app-data backups so backups can be labeled with details such as the account or configuration they contain.
+- Added a **Backups** button to the IPA Library for quick access to backups from every app.
+- Added a choice to restore app data with or without saved Keychain data when a backup contains Keychain items.
+- Improved Keychain restoration compatibility and reporting.
+- Installed apps now refresh automatically after an IPA finishes installing.
+- Added installation progress to the AppStore++ progress interface.
+- Delayed installation completion notifications until installation and any requested data restoration have actually finished.
+- Alphabetically sorted the IPA Library and all-app backups browser, while keeping individual files and backups ordered newest first.
+
+## App Store and library interface
+
+- Added search to the Updates tab.
+- Filtered empty App Store review cards from app descriptions.
+- Refined Manage and download controls to better match the App Store’s button styling.
+- Added a new animated AppStore++ launch experience.
+- Improved table-cell animations while preserving fast scrolling, search-bar interaction, and normal touch handling.
+- Improved progress-card sizing, dismissal animations, download-pill spacing, and collapsed download presentation.
+
+## Fixes and reliability
+
+- Fixed IPA downloads using the wrong app artwork in the download manager and IPA Library.
+- Fixed saved IPA sharing crashes and improved handling when a saved file is missing.
+- Fixed downloads disappearing, immediately cancelling, or failing to start when multiple apps were queued.
+- Fixed progress counters resetting or reducing their total when round-robin downloading resumed.
+- Fixed finished installation alerts occasionally failing to appear or reporting an unknown version.
+- Fixed app installation monitoring getting stuck after the requested version had successfully installed.
+- Improved compatibility with TrollStore Lite and jailbreak-based installations.
+- Added safe background-idle termination after five minutes when no downloads, lookups, or installations are active.
+- Improved network recovery so interrupted update checks retry when connectivity returns.
+
+---
+
+Thank you to everyone who submitted logs, tested builds, and reported issues.
+
+
 
 # AppStore++ — What’s New in v2.3.1-1
 
