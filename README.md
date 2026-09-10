@@ -12,6 +12,58 @@ Enjoy.
 
 Changes: 
 
+# AppStore++ — What’s New in v2.3.10-17
+
+## Version browsing and compatibility
+
+- Added compatible and incompatible labels to available versions based on the device’s installed iOS version.
+- Added minimum iOS information to cached version details while retaining incompatible versions in the list.
+- Improved recovery of missing version dates and compatibility information without requiring the entire cache to be deleted.
+- Improved progress reporting while checking versions that Apple cannot return for the current device.
+- Improved retrieval of version lists for apps that previously returned no results with an AppStore++ account.
+- Added automatically scrolling compatibility messages when the complete message does not fit in App Store search results.
+
+## IPA Library and installation
+
+- Improved installation of saved App Store IPAs so supported packages retain their App Store identity.
+- Added checks for saved IPAs that are missing information required for App Store-style installation.
+- Added an option to download a complete copy again when an older saved IPA is missing required installation information.
+- Expanded backup and management options for apps installed outside the App Store or no longer listed there.
+- Improved installation progress, completion detection, and error reporting.
+
+## AppStore++ updates
+
+- Added a redesigned App Store-style update page.
+- Update pages now show the bundled AppStore++ icon, version, release date, download size, compatibility, description, and changes.
+
+## Credits and support
+
+- Added an AppStore++ credit balance to the Installed Apps page.
+- Added a dedicated screen explaining credits and continued support for AppStore++.
+- Implemented video ads that allow users to earn credits.
+- Added one daily credit for active users.
+- Pending downloads and downgrades now continue automatically after the required credit is earned.
+- Added additional donation options in Settings.
+
+## App Store purchasing and accounts
+
+- Improved purchasing of free apps that are not already associated with the active Apple Account.
+- Restored Apple’s native Double Click to Install and Face ID purchase experience when available on the device.
+- Improved handling of stale App Store authorization and purchase cancellation.
+- Improved fallback behavior between AppStore++ account and on-device Apple Account requests.
+
+## Interface, notifications, and reliability
+
+- Improved compatibility with older iOS versions when advanced logging or account features are unavailable.
+- Improved AppStore++ update download errors and release URL handling.
+- Updated AppStore++ notification presentation and sound.
+- Improved controls for apps that do not have a current App Store listing.
+- Includes additional stability improvements and bug fixes.
+
+---
+
+Thank you to everyone who submitted logs, tested builds, and reported issues.
+
 # AppStore++ — What’s New in v2.3.6-1
 
 ## Version browsing and downloads
