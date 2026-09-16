@@ -5,12 +5,67 @@ Allows you to downgrade installed apps.
 
 How to install: 
 1. Install TrollStore on your device: https://github.com/opa334/TrollStore
-2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.10-17/AppStorePlus-v2.3.10-17.tipa) from your mobile safari.
+2. Download AppStore++ [here](https://github.com/CokePokes/AppStorePlus-TrollStore/releases/download/v2.3.10-17/AppStorePlus-v2.3.15-1.tipa) from your mobile safari.
 3. Open Files app and "Open in" Trollstore. & Done.
 
 Enjoy. 
 
 Changes: 
+
+# AppStore++ — What’s New in v2.3.15-1
+
+## Redesigned for iPad
+
+- Added a new split-view layout for Installed Apps, AppStore Search, the IPA Library, and app-data backups.
+- Added dedicated detail pages with app information and relevant actions while keeping the selected app list visible.
+- Improved iPad spacing, icons, placeholders, section navigation, and AppStore-style presentation.
+- Added Chinese translations for the new iPad interface.
+
+## Downloads and installation
+
+- AppStore installation progress now appears directly on Search and product-page action buttons.
+- Reopening a product page now restores an active installation’s progress and continues updating it.
+- Store installations now appear in the shared Downloads bar alongside version lookups and IPA downloads.
+- Tapping a completed IPA download notification now opens its saved IPA and available actions.
+- Improved Apple version lookup recovery when AppStore endpoints return incomplete or redirected responses.
+
+## IPA Library and backups
+
+- Added an iPad split-view browser for app-data backups that matches the IPA Library.
+- Improved native installation of saved AppStore IPAs on older versions of iOS.
+- Added safeguards against incomplete installation metadata and stale legacy download jobs.
+- Improved saved-IPA download metadata so supported packages retain the information required for later installation.
+
+## Older iOS compatibility
+
+- Restored AppStore++ notifications on older versions of iOS.
+- Improved on-device Apple Account version lookup and compatibility handling on iOS 12.
+- Added the appropriate native AppStore installation path when newer appstored interfaces are unavailable.
+- Improved the cloud-download icon on iOS 12 to match the native AppStore appearance.
+
+## Favorites and app actions
+
+- Added smoother animations when favoriting apps and individual app versions.
+- Added direct app-data backup and favorite controls to the iPad product page.
+
+## AppStore++ updates
+
+- Added separate version and download links for TrollStore and jailbreak installations.
+- The update page now shows the currently installed AppStore++ version alongside the available version.
+- Improved update link generation and release metadata for both `.tipa` and `.deb` packages.
+
+## Reliability
+
+- Standardized AppStore naming throughout the interface.
+- Improved installation progress recovery when navigating between pages.
+- Includes additional interface refinements, stability improvements, and bug fixes.
+
+---
+
+Thank you to everyone who submitted logs, tested builds, and reported issues.
+
+
+
 
 # AppStore++ — What’s New in v2.3.10-17
 
