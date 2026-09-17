@@ -12,6 +12,12 @@ Enjoy.
 
 Changes: 
 
+# AppStore++ — What’s New in v2.3.15-7
+
+- Added a delete all/trashcan button for ipa library
+- Fixed bug when an ipa download is cancelled when packaging and becoming corrupted
+- Run ipa packaging on background thread so the UI isn't lagged
+
 # AppStore++ — What’s New in v2.3.15-1
 
 ## Redesigned for iPad
